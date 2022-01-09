@@ -1,0 +1,76 @@
+{
+  "tbProducts": [
+    {
+      "id": "1",
+      "nombre": "Prenda 1",
+      "imagen_url": "https://picsum.photos/800/900?random=1",
+      "precio": "135886"
+    },
+    {
+      "id": "2",
+      "nombre": "Prenda 2",
+      "imagen_url": "https://picsum.photos/800/900?random=2",
+      "precio": "159399"
+    },
+    {
+      "id": "3",
+      "nombre": "Prenda 3",
+      "imagen_url": "https://picsum.photos/800/900?random=3",
+      "precio": "124525"
+    },
+    {
+      "id": "4",
+      "nombre": "Prenda 4",
+      "imagen_url": "https://picsum.photos/800/900?random=4",
+      "precio": "137343"
+    },
+    {
+      "id": "5",
+      "nombre": "Prenda 5",
+      "imagen_url": "https://picsum.photos/800/900?random=5",
+      "precio": "106712"
+    },
+    {
+      "id": "6",
+      "nombre": "Prenda 6",
+      "imagen_url": "https://picsum.photos/800/900?random=6",
+      "precio": "106272"
+    },
+    {
+      "id": "7",
+      "nombre": "Prenda 7",
+      "imagen_url": "https://picsum.photos/800/900?random=7",
+      "precio": "103217"
+    },
+    {
+      "id": "8",
+      "nombre": "Prenda 8",
+      "imagen_url": "https://picsum.photos/800/900?random=8",
+      "precio": "139039"
+    },
+    {
+      "id": "9",
+      "nombre": "Prenda 9",
+      "imagen_url": "https://picsum.photos/800/900?random=9",
+      "precio": "145639"
+    },
+    {
+      "id": "20",
+      "nombre": "Prenda 10",
+      "imagen_url": "https://picsum.photos/800/900?random=10",
+      "precio": "196991"
+    },
+    {
+      "id": "11",
+      "nombre": "Prenda 11",
+      "imagen_url": "https://picsum.photos/800/900?random=11",
+      "precio": "163685"
+    },
+    {
+      "id": "12",
+      "nombre": "Prenda 12",
+      "imagen_url": "https://picsum.photos/800/900?random=12",
+      "precio": "137196"
+    }
+  ]
+}

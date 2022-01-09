@@ -18,7 +18,7 @@ async function fnGetProductos() {
                <img src="${element.imagen_url}" class="card-img-top">
                <div class="card-body">
                   <h5 class="card-title">${element.nombre}</h5>
-                  <p class="card-text">${element.precio}</p>
+                  <p class="card-text">$${element.precio}</p>
                   <a href="#" class="btn btn-primary w-100">Agregar</a>
                </div>
             </div>

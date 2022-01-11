@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Príncipe Fresco</title>
+</head>
+
+<body>
+    <header class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-ligth">
+            <div class="container-fluid">
+                <img src="../images/crown01.png" alt="" width="80" height="80">
+                <a class="navbar-brand fs-2 fw-bold" href="#">Príncipe Fresco</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./mantenimiento.html">Mantenimiento Productos</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Título principal -->
+    <div id="idMainTitle" class="container my-4 p-4 bg-ligth rounded-pill text-center">
+        <h1 class="display-2">El Principe Fresco</h1>
+    </div>
+
+    <!-- Elemento CRUD -->
+
+    <div class="container mt-5">
+        
+        <hr />
+        <div class="row">
+
+            <div div class="col-5">
+                <h3 class="text-center"> Agregar Producto </h3>
+
+                <form class="formulario">
+                    <input id="inputNombre" type="text" class="form-control mt-2" name="nombre" autoComplete="off" placeholder="Nombre producto" required/>     
+                    
+                    <input id="inputUrl" type="text" class="form-control mt-2" placeholder="Url imagen" name="url" required/>
+
+                    <input id="inputPrecio" type="text" class="form-control mt-2" name="precio" autoComplete="off" placeholder="Precio" required/>                        
+
+                    <!-- <textarea id="inputDescripcion" class="form-control mt-2" autoComplete="off" name="descripcion" placeholder="Descripción" required></textarea> -->
+
+                    <input id="inputId" type="text" class="form-control mt-2" name="id" autoComplete="off"/>
+
+                    <div class="d-grid gap-2 mx-auto mt-2">
+                        <button type="submit" class="btn btn-dark">
+                            Crear Producto
+                        </button>
+                        <button id="btnNombre" type="button" class="btn btn-dark">
+                            Buscar por Nombre
+                        </button>
+                        <button id="btnEditar" type="button" class="btn btn-dark">
+                            Modificar
+                        </button>
+                    </div>
+                </form>
+            </div>
+
+            <div class=" col-7 mt-5 display-2">
+                <div id="idContenedorTarjetasProd" class="row justify-content-center ">
+          
+                </div>
+             </div>
+
+        </div>
+
+        <div div class="display-2 mt-5">
+            <h3 class="text-center">Lista de Productos</h3>
+            <ul class="lista-productos">
+            
+            </ul>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <!-- SCRIPTs propios -->
+    <script src="../scripts/mantenimiento.js" type="module"></script>
+</body>
+
+</html>

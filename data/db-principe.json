@@ -10,7 +10,7 @@
       "id": "2",
       "nombre": "Prenda 2",
       "imagen_url": "https://picsum.photos/800/900?random=2",
-      "precio": "159399"
+      "precio": "169399"
     },
     {
       "id": "3",
@@ -55,7 +55,7 @@
       "precio": "145639"
     },
     {
-      "id": "20",
+      "id": "10",
       "nombre": "Prenda 10",
       "imagen_url": "https://picsum.photos/800/900?random=10",
       "precio": "196991"

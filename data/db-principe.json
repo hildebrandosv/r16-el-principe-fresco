@@ -71,12 +71,6 @@
       "nombre": "Prenda 12",
       "imagen_url": "https://picsum.photos/800/900?random=12",
       "precio": "137196"
-    },
-    {
-      "id": 13,
-      "nombre": "Prenda 13",
-      "imagen_url": "https://picsum.photos/800/900?random=13",
-      "precio": "345690"
     }
   ]
 }

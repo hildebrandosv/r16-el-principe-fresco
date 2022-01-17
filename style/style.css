@@ -1,0 +1,39 @@
+/* footer */
+
+.pie-de-página{
+
+    width: 100%;
+    background-color: rgba(127, 255, 212, 0.411);
+
+}
+
+div.grupo-1{
+
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-column: 50px;
+padding: 50px, 0px;
+
+}
+
+figure#logo{
+
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+#img{
+    width: 150px;
+
+}
+
+.box h2{
+color: rgb(4, 66, 13);
+}
